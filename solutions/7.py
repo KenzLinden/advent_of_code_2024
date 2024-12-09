@@ -1,4 +1,4 @@
-# THIS ONE IS SO SLICK
+# THIS ONE IS SO SLICK OH MY LORD
 
 import re
 
@@ -35,10 +35,8 @@ def q1(input_text):
         nums = [int(x) for x in nums]
         target = nums[0]
 
-        
         totals = list()
         apply_operations(nums[1:], operations, totals)
-        
         
         for x in totals:
             if x == target:
